@@ -1,0 +1,24 @@
+graphic-environment-exploration
+Simple mini-game to test graphic environment interaction made in Unity for the Graphics course CS UoI.
+
+Functions
+W,A,S,D -> Player movement.
+Space -> Player jump. Jump is different when standing in front of a cylinder.
+P -> Mine target cube.
+B -> Place cube.
+C -> Place cylinder.
+K -> Kick cube.
+Q -> Destroy cube.
+X -> Destroy all cubes in every level with the same X,Y coordinates as the target.
+R -> Enable/Disable gravity.
+Escape -> Open menu.
+Info
+On startup, the user inputs an integer N . The NxNxN grid is created as well as the floor is with randomly coloured cubes.
+
+Mining a cube the player gets +1 cube on his cube stash.
+
+Placing a cube the player gets 10 points. Placing a cylinder awards 20 points.
+
+Jumping on a cube the player gets 10 points. Falling more than one levels the player loses 10 points for each one. When reaching level N, the player is awarded 100 points and 1 life.
+
+If with the X command the player destroys more than 3 cubes, he loses 20 points but is awarded 1 extra life.
